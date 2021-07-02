@@ -1,5 +1,8 @@
 import app from './lib/app.js';
 import pool from './lib/utils/pool.js';
+import dotenv from 'dotenv';
+
+dotenv.config();
 
 const PORT = process.env.PORT || 7890;
 

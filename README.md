@@ -8,7 +8,7 @@ Scrapes IPDB for these values:
 ✓ manufacturer,
 ✓ date,
 - mpu,
-- type,
+✓ type,
 - production,
 - design_by,
 - art_by,

@@ -8,5 +8,6 @@ CREATE TABLE machines (
   manufacturer TEXT,
   manufacture_date TEXT,
   production TEXT,
-  mpu TEXT
+  mpu TEXT,
+  theme TEXT
 )

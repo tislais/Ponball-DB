@@ -10,5 +10,6 @@ CREATE TABLE machines (
   production TEXT,
   mpu TEXT,
   theme TEXT,
-  specialty TEXT
+  specialty TEXT,
+  features TEXT
 )

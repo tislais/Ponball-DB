@@ -8,7 +8,7 @@ import setup from './data/setup.js';
 dotenv.config();
 setup(pool);
 
-[...Array(5)].map((_, i) => {
+[...Array(1)].map((_, i) => {
   setTimeout (() => {
     ingest(`https://www.ipdb.org/machine.cgi?id=${i + 1}`)
       .then(html => processPage(html))

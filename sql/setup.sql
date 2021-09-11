@@ -11,5 +11,6 @@ CREATE TABLE machines (
   mpu TEXT,
   theme TEXT,
   specialty TEXT,
-  features TEXT
+  features TEXT,
+  design TEXT[]
 )

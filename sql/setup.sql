@@ -12,5 +12,9 @@ CREATE TABLE machines (
   theme TEXT,
   specialty TEXT,
   features TEXT,
-  design TEXT[]
+  design TEXT[],
+  art TEXT[],
+  dots_animation TEXT[],
+  mechanics TEXT[],
+  sound TEXT[]
 )

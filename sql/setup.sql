@@ -16,5 +16,9 @@ CREATE TABLE machines (
   art TEXT[],
   dots_animation TEXT[],
   mechanics TEXT[],
-  sound TEXT[]
+  sound TEXT[],
+  software TEXT[],
+  notes TEXT,
+  rule_sheets JSONB[],
+  roms JSONB[]
 )

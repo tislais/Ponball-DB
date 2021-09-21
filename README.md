@@ -4,20 +4,25 @@ Scrapes IPDB for these values:
 
 ```
 ✓ title,
-✓ ipdb_id,
+✓ ipdb id,
 ✓ manufacturer,
-✓ date,
-- mpu,
+✓ manufacture date,
+✓ mpu,
 ✓ type,
-- production,
-- design_by,
-- art_by,
-- dots_animation_by,
-- mechanics_by,
+✓ production,
+✓ theme,
+✓ specialty,
+✓ features,
+✓ design by,
+✓ art by,
+✓ dots/animation by,
+✓ mechanics by,
 - music_by,
-- sound_by,
-- software_by,
-- documentation,
-- files,
+✓ sound by,
+✓ software by,
+✓ notes,
+✓ rule sheets
+✓ roms
+✓ documentation,
 - images
 ```

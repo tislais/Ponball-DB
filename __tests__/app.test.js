@@ -17,7 +17,7 @@ describe('demo routes', () => {
       {
         ipdbId: '2845',
         title: 'Theatre of Magic',
-        type: 'Solid State Electronic (SS) ',
+        type: 'Solid State Electronic (SS)',
         manufacturer: 'Midway Manufacturing Company, a subsidiary of WMS Industries, Incorporated, of Chicago, Illinois, USA (1988-1999) [Trade Name: Bally]',
         manufactureDate: 'March 28, 1995',
         production: '6,600',

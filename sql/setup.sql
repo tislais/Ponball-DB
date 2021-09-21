@@ -20,5 +20,6 @@ CREATE TABLE machines (
   software TEXT[],
   notes TEXT,
   rule_sheets JSONB[],
-  roms JSONB[]
+  roms JSONB[],
+  docs JSON[]
 )

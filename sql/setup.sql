@@ -1,4 +1,5 @@
 DROP TABLE IF EXISTS machines;
+DROP TABLE IF EXISTS labels;
 
 CREATE TABLE machines (
   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -22,4 +23,9 @@ CREATE TABLE machines (
   rule_sheets JSONB[],
   roms JSONB[],
   docs JSON[]
+);
+
+CREATE TABLE labels (
+  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  label TEXT
 )

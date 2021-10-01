@@ -6,11 +6,12 @@ import pool from './lib/utils/pool.js';
 import setup from './data/setup.js';
 
 dotenv.config();
+
 setup(pool);
 
-[...Array(1)].map((_, i) => {
+[...Array(100)].map((_, i) => {
   setTimeout (() => {
-    ingest(`https://www.ipdb.org/machine.cgi?id=${i + 1845}`)
+    ingest(`https://www.ipdb.org/machine.cgi?id=${i + 3845}`)
       .then(html => processPage(html))
       .then(machine => {
         console.log(machine[0].title);

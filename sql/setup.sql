@@ -1,12 +1,19 @@
 DROP TABLE IF EXISTS machine;
 DROP TABLE IF EXISTS label;
+DROP TABLE IF EXISTS manufacturer;
+
+CREATE TABLE manufacturer (
+  manufacturer_id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  name TEXT,
+  aka TEXT
+);
 
 CREATE TABLE machine (
-  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  machine_id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   ipdb_id BIGINT,
   title TEXT,
   type TEXT,
-  manufacturer TEXT,
+  manufacturer_id BIGINT,
   manufacture_date TEXT,
   production TEXT,
   mpu TEXT,
@@ -22,10 +29,12 @@ CREATE TABLE machine (
   notes TEXT,
   rule_sheets JSONB[],
   roms JSONB[],
-  docs JSON[]
+  docs JSON[],
+  CONSTRAINT fk_manufacturer FOREIGN KEY(manufacturer_id) REFERENCES manufacturer(manufacturer_id)
 );
 
 CREATE TABLE label (
   id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   label TEXT
-)
+);
+

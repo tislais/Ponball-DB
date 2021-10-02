@@ -21,6 +21,8 @@ describe('demo routes', () => {
         manufacturer: 'Midway Manufacturing Company, a subsidiary of WMS Industries, Incorporated, of Chicago, Illinois, USA',
         manufacturerTradeName: 'Bally',
         manufactureDate: 'March 28, 1995',
+        manufacturerFirstYear: '1988',
+        manufacturerLastYear: '1999',
         production: '6,600',
         mpu: 'Williams WPC Security (WPC-S)',
         theme: 'Show Business - Magic',

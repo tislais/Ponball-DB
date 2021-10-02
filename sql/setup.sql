@@ -5,7 +5,9 @@ DROP TABLE IF EXISTS manufacturer;
 CREATE TABLE manufacturer (
   manufacturer_id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   name TEXT,
-  trade_name TEXT
+  trade_name TEXT,
+  first_year INT4,
+  last_year INT4
 );
 
 CREATE TABLE machine (

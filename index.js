@@ -9,7 +9,7 @@ dotenv.config();
 
 setup(pool);
 
-[...Array(100)].map((_, i) => {
+[...Array(10)].map((_, i) => {
   setTimeout (() => {
     ingest(`https://www.ipdb.org/machine.cgi?id=${i + 3845}`)
       .then(html => processPage(html))
@@ -19,4 +19,5 @@ setup(pool);
       });
   }, i * 1000);
 });
+
 

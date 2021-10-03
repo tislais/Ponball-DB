@@ -9,9 +9,9 @@ dotenv.config();
 
 setup(pool);
 
-[...Array(1000)].map((_, i) => {
+[...Array(2000)].map((_, i) => {
   setTimeout (() => {
-    ingest(`https://www.ipdb.org/machine.cgi?id=${i + 3325}`)
+    ingest(`https://www.ipdb.org/machine.cgi?id=${i + 4500}`)
       .then(html => processPage(html))
       .then(machine => {
         console.log(machine[0].title);

@@ -8,7 +8,7 @@ export const machineStub = [
     manufactureDate: 'March 28, 1995',
     manufacturerFirstYear: '1988',
     manufacturerLastYear: '1999',
-    production: '6,600',
+    production: 6600,
     mpu: 'Williams WPC Security (WPC-S)',
     theme: 'Show Business - Magic',
     specialty: undefined,

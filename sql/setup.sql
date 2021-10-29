@@ -25,21 +25,21 @@ CREATE TABLE machine (
   manufacture_date TEXT,
   production BIGINT,
   mpu_id BIGINT,
-  theme TEXT,
-  specialty TEXT,
-  features TEXT,
   design TEXT[],
   art TEXT[],
   dots_animation TEXT[],
   mechanics TEXT[],
   sound TEXT[],
   software TEXT[],
-  notes TEXT,
+  specialty TEXT,
   rule_sheets JSONB[],
   roms JSONB[],
   docs JSON[],
   CONSTRAINT fk_manufacturer FOREIGN KEY(manufacturer_id) REFERENCES manufacturer(manufacturer_id),
-  CONSTRAINT fk_mpu FOREIGN KEY(mpu_id) REFERENCES mpu(mpu_id)
+  CONSTRAINT fk_mpu FOREIGN KEY(mpu_id) REFERENCES mpu(mpu_id),
+  features TEXT,
+  notes TEXT,
+  theme TEXT
 );
 
 CREATE TABLE label (

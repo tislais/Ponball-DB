@@ -56,7 +56,7 @@
   Photos in
   Average Fun Rating
   Model Number
-  Images (click to zoom)
+  Images
   Service Bulletins
   Owners List URL
   Serial Number Database

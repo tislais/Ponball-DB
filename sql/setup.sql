@@ -1,7 +1,4 @@
-DROP TABLE IF EXISTS machine;
-DROP TABLE IF EXISTS label;
-DROP TABLE IF EXISTS manufacturer;
-DROP TABLE IF EXISTS mpu;
+DROP TABLE IF EXISTS machine, label, manufacturer, mpu, contributor, contributor_machine;
 
 CREATE TABLE manufacturer (
   manufacturer_id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -40,6 +37,18 @@ CREATE TABLE machine (
   features TEXT,
   notes TEXT,
   theme TEXT
+);
+
+CREATE TABLE contributor (
+  contributor_id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  name TEXT
+);
+
+CREATE TABLE contributor_machine (
+  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  contributor_id BIGINT REFERENCES contributor(contributor_id),
+  machine_id BIGINT REFERENCES machine(machine_id),
+  role_type TEXT
 );
 
 CREATE TABLE label (

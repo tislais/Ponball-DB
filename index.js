@@ -8,17 +8,13 @@ import setup from './data/setup.js';
 dotenv.config();
 setup(pool);
 
-[...Array(200)].map((_, i) => {
-  setTimeout (() => {
+[...Array(10)].map((_, i) => {
+  setTimeout(() => {
     ingest(`https://www.ipdb.org/machine.cgi?id=${i}`)
-      .then(html => processPage(html))
-      .then(machine => {
+      .then((html) => processPage(html))
+      .then((machine) => {
         console.log(machine[0].title);
         store(machine);
       });
   }, i * 1000);
 });
-
-
-
-

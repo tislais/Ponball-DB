@@ -12,9 +12,6 @@ setup(pool);
   setTimeout(() => {
     ingest(`https://www.ipdb.org/machine.cgi?id=${i}`)
       .then((html) => processPage(html))
-      .then((machine) => {
-        console.log(machine[0].title);
-        store(machine);
-      });
+      .then((machine) => store(machine));
   }, i * 1000);
 });

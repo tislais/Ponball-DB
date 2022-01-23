@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import ingest from './lib/ingest.js';
 import processPage from './lib/process.js';
 import store from './lib/store.js';
@@ -13,6 +14,9 @@ setup(pool);
   setTimeout(() => {
     ingest(`https://www.ipdb.org/machine.cgi?id=${i}`)
       .then((html) => processPage(html))
-      .then((machine) => store(machine));
+      .then((machine) => {
+        console.log(machine[0].title);
+        store(machine);
+      });
   }, i * 1000);
 });

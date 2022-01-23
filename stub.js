@@ -3,8 +3,7 @@ export const machineStub = [
     ipdbId: '2845',
     title: 'Theatre of Magic',
     type: 'Solid State Electronic',
-    manufacturer:
-      'Midway Manufacturing Company, a subsidiary of WMS Industries, Incorporated, of Chicago, Illinois, USA',
+    manufacturer: 'Midway Manufacturing Company',
     manufacturerTradeName: 'Bally',
     manufactureDate: 'March 28, 1995',
     manufacturerFirstYear: '1988',

@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import ingest from './lib/ingest.js';
 import processPage from './lib/process.js';
 import store from './lib/store.js';
@@ -8,17 +9,14 @@ import setup from './data/setup.js';
 dotenv.config();
 setup(pool);
 
-[...Array(2000)].map((_, i) => {
-  setTimeout (() => {
-    ingest(`https://www.ipdb.org/machine.cgi?id=${i}`)
-      .then(html => processPage(html))
-      .then(machine => {
+// app go brr
+[...Array(6840)].map((_, i) => {
+  setTimeout(() => {
+    ingest(`https://www.ipdb.org/machine.cgi?id=${20 + i}`)
+      .then((html) => processPage(html))
+      .then((machine) => {
         console.log(machine[0].title);
         store(machine);
       });
   }, i * 1000);
 });
-
-
-
-

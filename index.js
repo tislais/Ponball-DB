@@ -12,7 +12,7 @@ setup(pool);
 // app go brr
 [...Array(6840)].map((_, i) => {
   setTimeout(() => {
-    ingest(`https://www.ipdb.org/machine.cgi?id=${180 + i}`)
+    ingest(`https://www.ipdb.org/machine.cgi?id=${20 + i}`)
       .then((html) => processPage(html))
       .then((machine) => {
         console.log(machine[0].title);

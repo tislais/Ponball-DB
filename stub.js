@@ -1,3 +1,4 @@
+/* eslint-disable quotes */
 export const machineStub = [
   {
     ipdbId: '2845',

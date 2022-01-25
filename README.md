@@ -1,76 +1,25 @@
 # Ponball DB
 
-### Scrapes IPDB for these values
+## Api Endpoints
+
+<br>
+
+#### Get all machines
 
 ```
-  - ipdbId
-  - title
-  - type
-  - manufacturer
-  - manufactureDate
-  - manufacturerTradeName
-  - manufacturerFirstYear
-  - manufacturerLastYear
-  - production
-  - mpu
-  - theme
-  - specialty
-  - features
-  - design
-  - art
-  - dotsAnimation
-  - mechanics
-  - sound
-  - software
-  - notes
-  - ruleSheets
-  - roms
-  - docs
-  - labels
+https://ponball.herokuapp.com/api/v1/machines
 ```
 
-### PostgreSQL tables
+#### Get all machines with offset (default 0) and limit (default 50)
 
 ```
-  - machine
-  - label
-  - manufacturer
-  - mpu
-  - contributor
-  - contributor_machine
-  - files
+https://ponball.herokuapp.com/api/v1/machines?limit=20&offset=20
 ```
 
-### Endpoints
+#### Get machine by IPDB id
 
 ```
-  /api/vi/machines/
-
-  Get all machines.
-  - ipdb
-  - title
-  - date
-  - manufacturer
+https://ponball.herokuapp.com/api/v1/machines/20
 ```
 
-```
-  /api/vi/machines/:id
-
-  Get machine by IPDB id.
-  - id
-  - ipdb
-  - title
-  - manufacturer
-  - date
-  - unitsProduced
-  - mpu
-  - design
-  - art
-  - dotsAnimation
-  - mechanics
-  - sound
-  - software
-  - ruleSheets
-  - roms
-  - docs
-```
+Values scraped from ipdb.org

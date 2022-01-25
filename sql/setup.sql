@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS machine, label, manufacturer, mpu, contributor, contributor_machine, files;
+DROP TABLE IF EXISTS machine, label, manufacturer, mpu, contributor, contributor_machine, files, images;
 
 CREATE TABLE manufacturer (
   manufacturer_id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
@@ -57,6 +57,14 @@ CREATE TABLE files (
   info TEXT,
   ipdb_url TEXT,
   category TEXT 
+);
+
+CREATE TABLE images (
+  id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+  machine_id BIGINT REFERENCES machine(machine_id),
+  credit TEXT,
+  href TEXT,
+  title TEXT
 );
 
 CREATE TABLE label (

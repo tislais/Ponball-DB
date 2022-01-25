@@ -9,7 +9,7 @@ describe('demo routes', () => {
     return setup(pool);
   });
 
-  it('gets name, date, and manufacturer via GET', async () => {
+  it.skip('gets name, date, and manufacturer via GET', async () => {
     const actual = await ingest(
       'https://www.ipdb.org/machine.cgi?id=2845'
     ).then((html) => processPage(html));

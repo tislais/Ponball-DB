@@ -10,7 +10,7 @@ dotenv.config();
 setup(pool);
 
 // app go brr
-[...Array(6840)].map((_, i) => {
+[...Array(6841)].map((_, i) => {
   setTimeout(() => {
     ingest(`https://www.ipdb.org/machine.cgi?id=${i}`)
       .then((html) => processPage(html))

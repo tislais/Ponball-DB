@@ -81,6 +81,220 @@ export const machineStub = [
         text: 'Parts List',
       },
     ],
+    images: [
+      {
+        credit: 'Paul Groulx',
+        href: 'https://www.ipdb.org/images/2845/image-1.jpg',
+        text: 'Translite',
+      },
+      {
+        credit: 'Paul Groulx',
+        href: 'https://www.ipdb.org/images/2845/image-3.jpg',
+        text: 'Illuminated Playfield',
+      },
+      {
+        credit: 'Paul Groulx',
+        href: 'https://www.ipdb.org/images/2845/image-4.jpg',
+        text: 'Cabinet',
+      },
+      {
+        href: 'https://www.ipdb.org/images/2845/image-2.jpg',
+        text: 'Translite',
+      },
+      {
+        credit: 'Christopher Wolf',
+        href: 'https://www.ipdb.org/images/2845/image-5.jpg',
+        text: 'Center of Playfield',
+      },
+      {
+        credit: 'Christopher Wolf',
+        href: 'https://www.ipdb.org/images/2845/image-6.jpg',
+        text: 'Machine',
+      },
+      {
+        href: 'https://www.ipdb.org/images/2845/2845f1.jpg',
+        text: 'Flyer, Front',
+      },
+      {
+        href: 'https://www.ipdb.org/images/2845/2845f2.jpg',
+        text: 'Flyer, Back',
+      },
+      {
+        credit: 'Ray Johnson',
+        href: 'https://www.ipdb.org/images/2845/image-7.jpg',
+        text: 'Center ramp/trunk area,undamaged w/proper posts.',
+      },
+      {
+        credit: 'Allen Shope',
+        href: 'https://www.ipdb.org/images/2845/image-16.jpg',
+        text: 'Lower Playfield Underside',
+      },
+      {
+        credit: 'Allen Shope',
+        href: 'https://www.ipdb.org/images/2845/image-17.jpg',
+        text: 'Upper Playfield Underside',
+      },
+      {
+        credit: 'Allen Shope',
+        href: 'https://www.ipdb.org/images/2845/image-18.jpg',
+        text: 'Cabinet Inside',
+      },
+      {
+        credit: 'Allen Shope',
+        href: 'https://www.ipdb.org/images/2845/image-19.jpg',
+        text: 'Backbox Electronics',
+      },
+      {
+        credit: 'Allen Shope',
+        href: 'https://www.ipdb.org/images/2845/image-22.jpg',
+        text: 'Lower Playfield',
+      },
+      {
+        credit: 'Allen Shope',
+        href: 'https://www.ipdb.org/images/2845/image-23.jpg',
+        text: 'Playfield Detail',
+      },
+      {
+        credit: 'Allen Shope',
+        href: 'https://www.ipdb.org/images/2845/image-24.jpg',
+        text: 'Playfield Detail',
+      },
+      {
+        credit: 'Allen Shope',
+        href: 'https://www.ipdb.org/images/2845/image-25.jpg',
+        text: 'Playfield Detail',
+      },
+      {
+        credit: 'Allen Shope',
+        href: 'https://www.ipdb.org/images/2845/image-26.jpg',
+        text: 'Playfield Detail',
+      },
+      {
+        credit: 'Allen Shope',
+        href: 'https://www.ipdb.org/images/2845/image-27.jpg',
+        text: 'Playfield Detail',
+      },
+      {
+        credit: 'Allen Shope',
+        href: 'https://www.ipdb.org/images/2845/image-28.jpg',
+        text: 'Playfield Detail',
+      },
+      {
+        credit: 'Allen Shope',
+        href: 'https://www.ipdb.org/images/2845/image-31.jpg',
+        text: 'Playfield Detail',
+      },
+      {
+        credit: 'Allen Shope',
+        href: 'https://www.ipdb.org/images/2845/image-32.jpg',
+        text: 'Playfield Detail',
+      },
+      {
+        credit: 'Allen Shope',
+        href: 'https://www.ipdb.org/images/2845/image-35.jpg',
+        text: 'Playfield Detail',
+      },
+      {
+        credit: 'Allen Shope',
+        href: 'https://www.ipdb.org/images/2845/image-37.jpg',
+        text: 'Playfield Detail',
+      },
+      {
+        credit: 'Bill Ung',
+        href: 'https://www.ipdb.org/images/2845/image-8.jpg',
+        text: 'Promotional Poster - Shot Map',
+      },
+      {
+        credit: 'Guerre Froide',
+        href: 'https://www.ipdb.org/images/2845/image-A8.jpg',
+        text: 'Blank Playfield',
+      },
+      {
+        credit: 'Guerre Froide',
+        href: 'https://www.ipdb.org/images/2845/image-9.jpg',
+        text: 'Upper Blank Playfield',
+      },
+      {
+        credit: 'Guerre Froide',
+        href: 'https://www.ipdb.org/images/2845/image-10.jpg',
+        text: 'Middle Blank Playfield',
+      },
+      {
+        credit: 'Guerre Froide',
+        href: 'https://www.ipdb.org/images/2845/image-11.jpg',
+        text: 'Lower Blank Playfield',
+      },
+      {
+        credit: 'Bill Ung',
+        href: 'https://www.ipdb.org/images/2845/image-A10.jpg',
+        text: 'Promotional Patch',
+      },
+      {
+        credit: 'Ravagnati Federico',
+        href: 'https://www.ipdb.org/images/2845/image-12.jpg',
+        text: 'Playfield',
+      },
+      {
+        credit: 'Ravagnati Federico',
+        href: 'https://www.ipdb.org/images/2845/image-13.jpg',
+        text: 'Cabinet - Left',
+      },
+      {
+        credit: 'Ravagnati Federico',
+        href: 'https://www.ipdb.org/images/2845/image-14.jpg',
+        text: 'Cabinet - Right',
+      },
+      {
+        credit: 'Jean-Pierre Renault',
+        href: 'https://www.ipdb.org/images/2845/image-15.jpg',
+        text: 'Behind Backglass',
+      },
+      {
+        credit: 'Jean-Pierre Renault',
+        href: 'https://www.ipdb.org/images/2845/image-20.jpg',
+        text: 'Backbox - Right',
+      },
+      {
+        credit: 'Jean-Pierre Renault',
+        href: 'https://www.ipdb.org/images/2845/image-21.jpg',
+        text: 'Cabinet - Right',
+      },
+      {
+        credit: 'Jean-Pierre Renault',
+        href: 'https://www.ipdb.org/images/2845/image-29.jpg',
+        text: 'Cabinet - Front',
+      },
+      {
+        credit: 'Jean-Pierre Renault',
+        href: 'https://www.ipdb.org/images/2845/image-38.jpg',
+        text: 'Playfield - Side Wall Art',
+      },
+      {
+        credit: 'Jean-Pierre Renault',
+        href: 'https://www.ipdb.org/images/2845/image-36.jpg',
+        text: 'Playfield - Detail',
+      },
+      {
+        credit: 'Jean-Pierre Renault',
+        href: 'https://www.ipdb.org/images/2845/image-39.jpg',
+        text: 'Playfield - Flipper Area',
+      },
+      {
+        credit: 'Jean-Pierre Renault',
+        href: 'https://www.ipdb.org/images/2845/image-30.jpg',
+        text: 'Cabinet - Front View',
+      },
+      {
+        credit: 'Ari Sovij�rvi',
+        href: 'https://www.ipdb.org/images/2845/image-33.jpg',
+        text: 'Prototype Up-Post',
+      },
+      {
+        credit: 'Federico Croci',
+        href: 'https://www.ipdb.org/images/2845/image-A34.jpg',
+        text: 'Promotional Patch',
+      },
+    ],
     labels: [
       'Average Fun Rating',
       'Manufacturer',
